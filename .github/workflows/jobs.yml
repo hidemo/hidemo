@@ -24,5 +24,3 @@ jobs:
     needs: [job_2,job_3]
     steps:
     - run: "echo Job ${{ github.job }}"
-    
-    - run: "echo Job ${{ github.job }}"
